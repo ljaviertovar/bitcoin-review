@@ -2,19 +2,17 @@ import { default } from './components/HelloWorld.vue';
 <template>
   <main>
     <br-header/>
-    <br-assets-table/>
+    <router-view class="container px-5 sm:px-20 py-20 flex justify-centery"/>
   </main>
 </template>
 
 <script>
 import  BrHeader  from "@/components/BrHeader";
-import  BrAssetsTable  from "@/components/BrAssetsTable";
 
   export default {
-    name: "app",
+    name: 'app',
     components: {
       BrHeader,
-      BrAssetsTable
     }
   }
 
