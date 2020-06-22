@@ -1,12 +1,14 @@
 <template>
-    <br-assets-table />
+    <div>
+        <br-assets-table />
+    </div>
 </template>
 
 <script>
 import  BrAssetsTable  from "@/components/BrAssetsTable"
 
 export default {
-    bame: "home",
+    name: "home",
     components: {
         BrAssetsTable
     }
