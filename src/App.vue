@@ -2,7 +2,7 @@ import { default } from './components/HelloWorld.vue';
 <template>
   <main>
     <br-header/>
-    <router-view class="container px-5 sm:px-20 py-20 flex justify-centery"/>
+    <router-view class="container px-5 sm:px-20 py-10 flex justify-centery"/>
   </main>
 </template>
 
